@@ -22,7 +22,7 @@ import androidx.core.app.ActivityCompat;
 public class MainActivity extends AppCompatActivity {
 
 
-    private Button btnStart, btnStop, btnMap;
+    private Button btnStart, btnMap;
     private TextView latTxt, longTxt, nameTxt;
     private LocationManager locationManager;
     private LocationListener locationListener;
